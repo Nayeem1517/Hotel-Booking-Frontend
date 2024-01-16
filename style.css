@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    
+}
+
+.background-container {
+    background-image: url("background-01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 1063.434px;
+    flex-shrink: 0;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-container a :hover {
+    background-color: red;
+}
+
+.nav-container {
+    margin-left: 250px;
+    display: inline-flex;
+    padding: 19px 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 84px;
+    /* border-radius: 18px; */
+    /* background-color: bisque; */
+}
+
+.bg-title {
+    position: absolute;
+    left: 120px;
+    margin-top: 750px;
+    color: brown;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.booking {
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.tag {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 60px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    display: flex;
+    padding: 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    background-color: orange;
+    margin-left: 650px;
+    margin-top: 35px;
+}
+
+.csk {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
