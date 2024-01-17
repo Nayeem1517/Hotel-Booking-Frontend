@@ -8,6 +8,11 @@ body {
 
 }
 
+.logo {
+    height: 60px;
+    width: 100px;
+}
+
 .background-container {
     background-image: url("background-01.jpg");
     background-size: cover;
@@ -173,4 +178,159 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.special-offer {
+    color: #65AEF2;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sell-offer {
+    /* background-color: red; */
+    gap: 80px;
+}
+
+.sell-title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.sell-paragraph {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.offer-banner {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-btn {
+    padding-right: 40px;
+}
+
+.calendar {
+    width: 360px;
+    height: 280px;
+    left: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.img-ingo {
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.declar {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.declar-intro {
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.priceing {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sell-images {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lagena {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    background-color: black;
+}
+
+.vula-jai {
+    color: white;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.comment {
+    width: 600px;
+    padding: 25px 48px;
+    align-items: center;
+    gap: 8px;
+}
+.tahare{
+    padding: 40px;
+    width: 250px;
+    height: 80px;
+}
+.captain{
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
+.bindiya{
+    color: white;
+    margin-left: 30px;
+}
+.ayna{
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.mon-pakhi{
+    margin-top: 20px;
+    margin-left: 85px;
+    height: 110px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+}
+.reserved{
+    background-color: black;
+    color: red;
+    text-align: center;
 }
