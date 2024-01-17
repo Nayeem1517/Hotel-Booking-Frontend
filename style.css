@@ -5,7 +5,7 @@
 
 body {
     width: 100%;
-    
+
 }
 
 .background-container {
@@ -85,6 +85,7 @@ body {
     background-color: orange;
     margin-left: 650px;
     margin-top: 35px;
+    border-radius: 10px;
 }
 
 .csk {
@@ -95,4 +96,81 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.services-more {
+
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+
+}
+
+.extra-info {
+    width: 400px;
+    height: 760px;
+    border-radius: 42px;
+    background-image: url("rectangle-06.jpg");
+}
+
+.room-info {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 70px;
+    right: 139px;
+    bottom: 65px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.dinning {
+    background-image: url("rectangle-08.jpg");
+}
+
+.khawa-dawa {
+    display: flex;
+    width: 70%;
+}
+
+.extra-info-one {
+    background-image: url("rectangle-08.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+.extra-info-two {
+    background-image: url("rectangle-09.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+.extra-info-three {
+    background-image: url("rectangle-10.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+.extra-info-four {
+    background-image: url("rectangle-11.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+.khawa-dawa {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
